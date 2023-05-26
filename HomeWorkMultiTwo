@@ -1,0 +1,21 @@
+package HomeWork;
+
+import java.util.Scanner;
+
+public class HomeWorkMultiTwo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter pls first fractional number: ");
+        Double a = sc.nextDouble();
+
+        System.out.print("Enter pls second fractional number: ");
+        Double b = sc.nextDouble();
+
+        double c = a * b;
+        int cc = (int) c;
+        System.out.print("Result of Multiplication is: " + cc );
+
+        sc.close();
+    }
+}
