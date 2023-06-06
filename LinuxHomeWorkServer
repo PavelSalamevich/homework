@@ -1,0 +1,28 @@
+  Screen не подгружается. Вот копия текста из сервера.
+  
+  
+ 1000  history
+[ec2-user@ip-172-31-33-20 ~]$ cd /opt/
+[ec2-user@ip-172-31-33-20 opt]$ list
+-bash: list: command not found
+[ec2-user@ip-172-31-33-20 opt]$ ls
+020523_evening  2103_morning     33_34_morning    41_42_evening    basic_33e_34
+040423_evening  240123e_evening  35_36_evening    43_44_evening_a  chumak
+060323_e        240123_evening   35_36_morning    43_44_evening_b  containerd
+070223_morning  240123_morning   35_36_morning_b  43_44_morning    DockerTelran
+100123_evening  280223_m         37_38_evening    45_46_morning    group39_40ea
+140223_evening  280323_morning   37_38_MA         47_48_evening_b  java37m
+160523_evening  3                37_38_morning    48_49_morning    keys
+170120          310123_evening   37_38_morning_b  49_50_evening    mydate
+170123          31_32_evening    37_38_morning_c  53_54_evening    new
+180423_evening  31_32_morning    39_40_evening_a  Anton            old_opt
+210223_morning  33_34_evening    39_40_evening_b  aws              opt
+210323_evening  3334m            40_41_morning    bachscript.sh    zhevaha
+[ec2-user@ip-172-31-33-20 opt]$  cd 020523_evening/
+[ec2-user@ip-172-31-33-20 020523_evening]$ ls
+chumak  ElizavetaMandryk  guzal  ivan_pokhilchenko  vladyslav_skrynnyk
+[ec2-user@ip-172-31-33-20 020523_evening]$ mkdir pavel_salamevich
+[ec2-user@ip-172-31-33-20 020523_evening]$ ls
+chumak            guzal              pavel_salamevich
+ElizavetaMandryk  ivan_pokhilchenko  vladyslav_skrynnyk
+[ec2-user@ip-172-31-33-20 020523_evening]$
