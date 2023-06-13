@@ -1,0 +1,34 @@
+package HomeWork;
+
+import java.util.Scanner;
+
+public class HomeWorkSeason {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter please number of the month: ");
+        int type = sc.nextInt();
+        sc.close();
+        if (type  >= 1 && type <= 2 ){
+           System.out.println("Зима");
+        }else {
+            if (type  >= 3 && type <= 5) {
+                System.out.println("Весна");
+            } else {
+                if (type >= 6 && type <= 8) {
+                    System.out.println("Лето");
+                } else {
+                    if (type >= 9 && type <= 11) {
+                        System.out.println("Осень");
+                    } else {
+                        if (type == 12) {
+                            System.out.println("Зима");
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
