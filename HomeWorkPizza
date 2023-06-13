@@ -1,0 +1,16 @@
+package HomeWork.Pizza;
+
+public class Pizza {
+    public static void main(String[] args) {
+
+        double d1 = 24;
+        double d2 = 28;
+        double S1 = (Math.pow(d1, 2) / 4 * Math.PI)/40;
+        double S2 = (Math.pow(d2, 2) / 4 * Math.PI)/40;
+        Double cal = S2-S1;
+        System.out.println(S1 +" каллорийность первой пиццы");
+        System.out.println(S2 +" каллорийность второй пиццы");
+        System.out.println("разница в каллориях= " + cal + " cal");
+
+    }
+}
