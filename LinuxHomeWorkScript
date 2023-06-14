@@ -1,0 +1,11 @@
+#!/bin/bash
+ 
+echo "Your name is: " 
+whoami
+echo "Your place is: "
+pwd
+echo "Number of processes: "
+ps -ef | wc -l
+echo "done"
+
+
