@@ -1,0 +1,31 @@
+
+.list{
+    border: 29px;
+padding: 2px;
+
+}
+.test-li
+{
+    color: rgb(19, 18, 2);
+}
+.custom-table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: solid black;
+}
+thead tr:nth-child(1){
+    background-color: blue;
+    color: azure;
+}
+tbody tr:nth-child(4n+1){
+    background-color: rgb(255, 0, 55);
+    color: azure;
+}
+.container{
+    width: 500px;
+}
