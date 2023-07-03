@@ -1,0 +1,23 @@
+
+.list{
+    border: 29px;
+padding: 2px;
+
+}
+.test-li
+{
+    color: rgb(19, 18, 2);
+}
+.custom-table{
+    border: 5px groove #ccc;
+}
+th, td {
+    padding: 3px;
+    text-align: center;
+    border: solid gray;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.container{
+    width: 80px;
+}
