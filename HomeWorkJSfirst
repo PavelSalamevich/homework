@@ -1,0 +1,52 @@
+/* каждое второе число от 0 до 10
+
+for ( let i = 0; i < 10; i++) {
+if ( i % 2 === 0){
+console.log(i)
+  }
+}*/
+
+/* все числа от 55 до 20
+
+for (let i = 55; i >= 20; i--){
+ console.log(i)
+}*/
+
+
+/*вывести в консоль массив
+
+const numbers = [3,5,11,2,8,1,6];
+for (let i = 0; i < numbers.length; i++){
+    console.log(numbers[i])
+}*/
+
+
+/* новый массив из массива numbers в квадрате
+
+const number = [3,5,11,2,8,1,6];
+const numbers_squared = [];
+for(let i = 0; i < number.length; i++){
+    numbers_squared.push(number[i]*number[i])
+}
+console.log(numbers_squared)*/
+
+
+/*  создать переменную last_elem и передать в нее последний элемент из предыдущего массива
+
+const numbers = [3,5,11,2,8,1,6];
+const squared = []
+for (let i = 0; i < numbers.length; i++){
+    squared.push(numbers[i]*numbers[i])
+}
+let last_elem = squared[squared.length-1];
+console.log(last_elem);*/
+
+/* создать обьект user 
+const user = {
+    firstName: "Pavel",
+    lastName: "Salamevich",
+    age: 30
+};
+console.log("User name is: ", 
+user.firstName, user.lastName, 
+"He is: ", user.age, "years old");*/
